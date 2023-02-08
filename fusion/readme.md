@@ -1,4 +1,4 @@
-September 22th 2022
+January 29th 2023
 
 
 ##  For Volumio3 => v 3.236
@@ -129,7 +129,7 @@ rm -Rf fusion*
 
 In webUI, enable the plugin.
 
-## What is working :
+## What is working : 
 
 everythings it seems ;-)
 
@@ -140,10 +140,55 @@ everythings it seems ;-)
 
 ### 4. Last changes
 
+December 29th 2023 v1.0.33
+
+- chunksize set to 4800 for HW compatibility
+
+
+December 23th 2022 v1.0.32
+
+- Swap channels parameter saved in presets
+- move fusiondsp.service in /etc/systemd/system/multi-user.target.wants/
+
+December 06th 2022 v1.0.31
+
+-  Report DSP properties on fusion DSP 
+
+November 2nd 2022 v1.0.30
+
+- Fix auto pre amp
+
+November 1st 2022 v1.0.29
+
+- Fix camilla gui install
+
+October 28th 2022 v1.0.28
+
+- Bump to camilladsp v1.0.2 fix2
+- custom camillagui
+- Resample up to 768kHz
+- new clipping detection for conv
+- Refactored online help
+
+October 23th 2022 v1.0.27
+
+- Bump to camilladsp v1.0.2 fix1
+
+October 22th 2022 v1.0.26
+
+- Bump to camilladsp v1.0.2
+
+October 13th 2022 v1.0.25
+
+- Add preset for conv mode release
+
+October 12th 2022 v1.0.24
+
+- Add preset for conv mode
+
 September 22th 2022 v1.0.23
 
 - Delay settings are saved in preset
-
 
 September 16th 2022 v1.0.22
 
